@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/binSave"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_baseline_save_alt_24"/>
+<!--    penutup view-->
+
+
+<!--    editText default androidStudio-->
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Username"/>
+
+
+
+<!--    editText dari Google-->
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:endIconMode="password_toggle">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilihan"
+        android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radiobutton" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <Button
+        android:id="@+id/btnIg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/instagram"
+        android:textAllCaps="false"/>
+
+
+
+
+<!--id digunakan sebagai penghubung-->
+<!--    penutup viewgroup-->
+</LinearLayout>

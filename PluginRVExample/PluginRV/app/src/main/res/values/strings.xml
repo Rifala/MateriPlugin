@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PluginRV</string>
+    <string name="name_title">Tipe Android</string>
+    <string name="android_12">Android 12</string>
+</resources>

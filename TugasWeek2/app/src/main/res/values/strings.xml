@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Username">username</string>
+    <string name="Name">Name</string>
+    <string name="Squad">Squad</string>
+    <string name="Angkatan">Angkatan</string>
+    <string name="Hobi">Hobi</string>
+    <string name="Save">Save</string>
+    <string name="Next">Next</string>
+</resources>

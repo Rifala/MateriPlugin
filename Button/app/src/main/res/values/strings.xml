@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Button</string>
+    <string name="save">Save</string>
+    <string name="resource">Resource</string>
+    <string name="password">Password</string>
+    <string name="Username">Username</string>
+    <string name="pilihan">Pilihan</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="wifi">wifi</string>
+    <string name="instagram">Instagram</string>
+</resources>
